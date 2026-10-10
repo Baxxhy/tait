@@ -1,0 +1,20 @@
+import setuptools
+
+setuptools.setup(
+    name='tddbench',
+    packages=setuptools.find_packages(),
+    python_requires='>=3.11',
+    install_requires=[
+        'beautifulsoup4',
+        'datasets',
+        'docker',
+        'ghapi',
+        'python-dotenv',
+        'requests',
+        'unidiff',
+        'tqdm',
+        'pytest',
+        'cldk==1.0.6'
+    ],
+    include_package_data=True,
+)
